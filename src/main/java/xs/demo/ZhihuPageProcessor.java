@@ -27,6 +27,6 @@ public class ZhihuPageProcessor implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new us.codecraft.webmagic.processor.example.ZhihuPageProcessor()).addUrl(new String[]{"https://www.zhihu.com/explore"}).run();
+        Spider.create(new ZhihuPageProcessor()).addUrl(new String[]{"https://www.zhihu.com/explore"}).run();
     }
 }
